@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Adsra Studio | A design studio for your online presence</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .class-name {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
+    </style>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
+     <!-- Preload Video Resources -->
+     <link rel="preload" href="./img/video-bg1.mp4" as="video" type="video/mp4">
+     <link rel="preload" href="./img/our-services-bg2.mp4" as="video" type="video/mp4">
+</head>
+
+<body class="body">
+    <!-- Floating Navigation -->
+    <div class="floating-nav">
+        <div class="div-block-17">
+            <div class="navbar-2 w-nav">
+                <nav class="nav-menu-2 w-nav-menu">
+                    <a href="#hero" class="floating-nav__link w-nav-link">Home</a>
+                    <a href="#latest-projects" class="floating-nav__link w-nav-link">Projects</a>
+                    <a href="#our-services" class="floating-nav__link w-nav-link">Our Services</a>
+                    <a href="#reviews" class="floating-nav__link w-nav-link">Reviews</a>
+                    <a href="#pricing" class="floating-nav__link w-nav-link">Pricing</a>
+                </nav>
+                <div class="w-nav-button">
+                    <div class="w-icon-nav-menu"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top Navigation -->
+    <div class="top-nav">
+        <a href="#" class="nav__logo-wrapper w-inline-block">
+            <img src="./img/ADSRA-STUDIO- Final.png" alt="Logo" class="image-1" loading="lazy" />
+        </a>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="site-wrapper">
+        <div class="inner-frame">
+            <div id="hero" class="hero">
+                <video autoplay muted loop id="hero-video" loading="lazy">
+                    <source src="./img/video-bg1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="container">
+                    <div class="hero__wrapper">
+                        <h1 class="heading-5">A design <span class="studio-style">studio</span> for your online <span class="studio-style2">presence</span>.</h1>
+                        <p class="inline">Custom web development for businesses of all sizes.</p>
+                        <div class="button__wrapper">
+                            <a href="#pricing" class="button w-inline-block">
+                                <div>See plans</div>
+                            </a>
+                        </div>
+                        <div class="animation-text-wrapper available-text">
+                            <lottie-player src="./img/green-dot.json" background="transparent" color="green" speed="1" style="width: 30px; height: 30px;" direction="1" playMode="normal" loop autoplay></lottie-player>
+                            <span class="small-print">Available now</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logo Marquee -->
+            <div class="section--logo-marquee">
+                <div class="logo-marquee__wrapper">
+                    <div class="marquee__inner">
+                        <div class="marquee__element">
+                            <div class="marquee__logo"><img src="./img/logo1.png" alt="Logo 1" class="astro" loading="lazy" /></div>
+                            <div class="marquee__logo"><img src="./img/logo2.png" alt="Logo 2" class="flowbase" loading="lazy" /></div>
+                            <div class="marquee__logo"><img src="./img/logo3.png" alt="Logo 3" class="xfinity" loading="lazy" /></div>
+                            <div class="marquee__logo"><img src="./img/logo4.png" alt="Logo 4" class="nector" loading="lazy" /></div>
+                            <!-- Repeat logos to create seamless looping effect -->
+                            <div class="marquee__logo"><img src="./img/logo1.png" alt="Logo 1" class="astro" loading="lazy" /></div>
+                            <div class="marquee__logo"><img src="./img/logo2.png" alt="Logo 2" class="flowbase" loading="lazy" /></div>
+                            <div class="marquee__logo"><img src="./img/logo3.png" alt="Logo 3" class="xfinity" loading="lazy" /></div>
+                            <div class="marquee__logo"><img src="./img/logo4.png" alt="Logo 4" class="nector" loading="lazy" /></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Latest Projects Section -->
+            <section id="latest-projects" class="latest-projects">
+                <div class="badge-container">
+                    <div class="latest-projects__wrapper">
+                        <img src="./img/cloud.svg" loading="lazy" alt="" class="hero-badge" />
+                        <div class="badge__text">Latest<br />projects</div>
+                    </div>
+                </div>
+                <div class="projects-wrapper">
+                    <div class="project"><img src="./img/design1.png" alt="Project 1" loading="lazy"></div>
+                    <div class="project"><img src="./img/design2.png" alt="Project 2" loading="lazy"></div>
+                    <div class="project"><img src="./img/design3.png" alt="Project 3" loading="lazy"></div>
+                    <div class="project"><img src="./img/design4.png" alt="Project 4" loading="lazy"></div>
+                </div>
+            </section>
+
+            <!-- Our Services Section -->
+            <section id="our-services" class="hiw">
+                <video autoplay muted loop id="hero-video" loading="lazy">
+                    <source src="./img/our-services-bg2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="hiw__wrapper">
+                    <h2 class="hiw-heading">Our <span class="service-style">Services</span></h2>
+                    <p class="hiw__sub">Discover a range of services designed to meet all your needs.</p>
+                    <div class="grid">
+                        <div class="hiw__column">
+                            <div class="hiw__icon-wrapper">
+                                <img class="our-services-img" src="./img/landing-page.png" alt="" loading="lazy">
+                            </div>
+                            <h3 class="service-heading">Landing Pages</h3>
+                            <p class="p-small">Stunning landing pages that turn visitors into customers.</p>
+                        </div>
+                        <div class="hiw__column">
+                            <div class="hiw__icon-wrapper">
+                                <img class="our-services-img" src="./img/mobile-ui-design.png" alt="" loading="lazy">
+                            </div>
+                            <h3 class="service-heading">Mobile Apps</h3>
+                            <p class="p-small">User-friendly mobile apps to engage and grow your audience.</p>
+                        </div>
+                        <div class="hiw__column">
+                            <div class="hiw__icon-wrapper">
+                                <img class="our-services-img" src="./img/branding.webp" alt="" loading="lazy">
+                            </div>
+                            <h3 class="service-heading">Branding</h3>
+                            <p class="p-small">A strong brand identity that makes you stand out.</p>
+                        </div>
+                        <div class="hiw__column">
+                            <div class="hiw__icon-wrapper">
+                                <img class="our-services-img" src="./img/logo-design-img.png" alt="" loading="lazy">
+                            </div>
+                            <h3 class="service-heading">Logos</h3>
+                            <p class="p-small">Unique logos that capture your brand’s essence.</p>
+                        </div>
+                        <div class="hiw__column">
+                            <div class="hiw__icon-wrapper">
+                                <img class="our-services-img" src="./img/social-media.webp" alt="" loading="lazy">
+                            </div>
+                            <h3 class="service-heading">Social Media</h3>
+                            <p class="p-small">Eye-catching graphics to boost your social media presence.</p>
+                        </div>
+                        <div class="hiw__column">
+                            <div class="hiw__icon-wrapper">
+                                <img class="our-services-img" src="./img/blog-graphics.webp" alt="" loading="lazy">
+                            </div>
+                            <h3 class="service-heading">Blog Graphics</h3>
+                            <p class="p-small">Attractive visuals to enhance your blog posts.</p>
+                        </div>
+                    </div>
+                    <div class="button__wrapper m-t-40">
+                        <a href="#pricing" class="button">See plans</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Review Section -->
+            <section id="reviews" class="wall-of-love-section">
+                <div class="scribble3"></div>
+                <div class="section-heading">
+                    <h2>Voices of Joy: Our Wall of Love</h2>
+                    <div class="sub-heading">
+                        <h3>Discover the Elation: Hear from Our Thrilled Community</h3>
+                        <p>Explore heartfelt testimonials from our beloved customers, celebrating the joy of our thriving community.</p>
+                    </div>
+                    <div class="doodle"></div>
+                </div>
+                <div class="slider-container">
+                    <div class="arrow left-arrow" onclick="prevSlide()">&#9664;</div>
+                    <div class="reviews-wrapper">
+                        <div class="reviews-container" id="reviews-container">
+                            <div class="review-card">
+                                <div class="review-header">
+                                    <img src="./img/review-pic4.png" alt="Customer 1" loading="lazy">
+                                    <div class="customer-info">
+                                        <h3>Charles Lewis</h3>
+                                        <div class="rating">
+                                            <span>★★★★★</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="review-text">This product changed my life! The quality is unmatched and the customer service is outstanding.</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="review-header">
+                                    <img src="./img/review-pic7.png" alt="Customer 2" loading="lazy">
+                                    <div class="customer-info">
+                                        <h3>Sarah Moore</h3>
+                                        <div class="rating">
+                                            <span>★★★★★</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="review-text">Working with Adsra Studio was a game-changer for our digital transformation. Their innovative solutions and impeccable service exceeded all expectations!</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="review-header">
+                                    <img src="./img/review-pic2.png" alt="Customer 2" loading="lazy">
+                                    <div class="customer-info">
+                                        <h3>William Jones</h3>
+                                        <div class="rating">
+                                            <span>★★★★★</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="review-text">Amazing quality and service from Adsra Studio. They nailed our vision perfectly. Couldn't be happier!</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="review-header">
+                                    <img src="./img/review-pic5.png" alt="Customer 2" loading="lazy">
+                                    <div class="customer-info">
+                                        <h3>Peter Brown</h3>
+                                        <div class="rating">
+                                            <span>★★★★★</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="review-text">Adsra Studio exceeded our expectations. Their attention to detail and quality is impressive. Love the final product!</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="review-header">
+                                    <img src="./img/review-pic1.png" alt="Customer 2" loading="lazy">
+                                    <div class="customer-info">
+                                        <h3>Maria Garcia</h3>
+                                        <div class="rating">
+                                            <span>★★★★★</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="review-text">Great experience overall. I would highly recommend this to my friends and family.</p>
+                            </div>
+                            <div class="review-card">
+                                <div class="review-header">
+                                    <img src="./img/review-pic6.png" alt="Customer 2" loading="lazy">
+                                    <div class="customer-info">
+                                        <h3>Barbara Taylor</h3>
+                                        <div class="rating">
+                                            <span>★★★★★</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="review-text">Our software is now super user-friendly thanks to Adsra Studio. We've had nothing but great feedback! Would definitely recommend them for any design needs!</p>
+                            </div>
+                        </div>
+                        <div class="arrow right-arrow" onclick="nextSlide()">&#9654;</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Call to Action -->
+            <section id="pricing" class="pricing-section">
+                <div class="scribble1"></div> <div class="scribble2"></div>
+                <div class="pricing-flex">
+                    <div class="pricing-left">
+                        <div class="pricing-left-top">
+                            <div class="available-pill">
+                                <div class="slots-available">
+                                    <div class="animation-text-wrapper available-text">
+                                        <lottie-player src="./img/green-dot.json" background="transparent" color="green" speed="1" style="width: 30px; height: 30px;" direction="1" playMode="normal" loop autoplay></lottie-player>
+                                        <span class="small-print">Available now</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h1 class="pricing-left-heading">Adsra<br />Studio</h1>
+                        </div>
+                        <div class="pricing-left-bottom">
+                            <a href="https://wa.me/+9dddqdq" target="_blank" class="pricing-card top">
+                                <div class="pricing-card-content">
+                                    <h5>Book a 15-min intro call</h5>
+                                    <p>Learn more about how adsra studio works and how it can help you.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pricing-right-card">
+                        <div class="tabs-menu">
+                            <a data-tab="standard" class="tab active">Standard</a>
+                            <a data-tab="pro" class="tab">
+                                <img loading="lazy" src="./img/pro tab.svg" alt="" class="tab__bolt" />
+                                <span>Pro</span>
+                            </a>
+                        </div>
+                        <div class="tabs-content">
+                            <div class="tab-pane active" id="standard-content">
+                                <div class="pricing-details">
+                                    <h1>$60 <span>$80</span>
+                                        <div class="ad-per-off">
+                                            <p>25% off</p>
+                                        </div>
+                                    </h1>
+                                    <p>5 pages website tailored to your brand's needs.</p>
+                                </div>
+                                <div class="pricing-includes">
+                                    <p>What's included</p>
+                                    <ul class="bullet-list">
+                                        <li>Free Domain and Hosting</li>
+                                        <li>Average delivery time of 3 days</li>
+                                        <li>Content Integration</li>
+                                        <li>Unlimited stock photos</li>
+                                    </ul>
+                                </div>
+                                <div class="cta-wrapper">
+                                    <a href="https://wa.me/+9dddqdq" class="button" target="_blank">Get Started</a>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pro-content">
+                                <div class="pricing-details">
+                                    <h1>$108 <span>$120</span>
+                                        <div class="ad-per-off">
+                                            <p>10% off</p>
+                                        </div>
+                                    </h1>
+                                    <p>8 pages website tailored to your brand's needs.</p>
+                                </div>
+                                <div class="pricing-includes">
+                                    <p>What's included</p>
+                                    <ul class="bullet-list">
+                                        <li>Includes all in standard pack.</li>
+                                        <li>Average delivery time of 6 days</li>
+                                        <li>E-commerce Functionality</li>
+                                        <li>Product listing</li>
+                                        <li>SEO</li>
+                                    </ul>
+                                </div>
+                                <div class="cta-wrapper">
+                                    <a href="https://wa.me/+9dddqdq" class="button" target="_blank">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="arrow-scrib1"></div>
+                <div class="arrow-scrib2"></div>
+                <div class="footer-container">
+                    <div class="footer-logo">
+                        <img src="./img/ADSRA-STUDIO- Final.png" alt="Logo" loading="lazy" />
+                    </div>
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#latest-projects">Projects</a></li>
+                            <li><a href="#our-services">Services</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#reviews">Reviews</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h4>Contact Us</h4>
+                        <p>Email: <a href="mailto:info@yourdomain.com">info@yourdomain.com</a></p>
+                        <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+                    </div>
+                    <div class="footer-social">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Adsra Studio. All Rights Reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="script.min.js" defer></script>
+</body>
+
+</html>
