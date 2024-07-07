@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: #fafafa;
+    /* background-color: #fafafa; */
     background-image: url(/img/dotted_bg.svg), url(/img/body_bg.png);
     min-height: 100%;
     margin: 0;
